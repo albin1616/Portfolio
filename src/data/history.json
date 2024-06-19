@@ -1,0 +1,14 @@
+[
+  {
+    "role": "Fullstack developer",
+    "organisation": "CodeCraft Technogies",
+    "startDate": "Aug, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Developed dynamic web applications with React.js.",
+      "Styled responsive components with Tailwind CSS.",
+      "Collaborated with agile teams."
+    ],
+    "imageSrc": "history/codecraft.png"
+  }
+]

@@ -1,0 +1,100 @@
+@import '../../vars.css';
+.container {
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 79px;
+}
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 44.1px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  margin-bottom: 19px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 37px;
+}
+
+.skills {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+}
+.skillImageContainer img {
+  width: 75px;
+}
+.history {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+.historyItem img {
+  width: 55px;
+}
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.historyItemDetails p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.historyItemDetails ul {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-left: 17px;
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-left: 1.1em;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        margin-top: .1rem;
+    }
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .history {
+    width: 100%;
+  }
+}

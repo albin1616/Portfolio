@@ -11,7 +11,7 @@ const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl('contact/email.png')} alt='email' />
-          <a href='https://www.w3schools.com/' target='blank'>
+          <a href='https://mail.google.com/' target='blank'>
             albinabraham17@gmail.com
           </a>
         </li>
@@ -28,8 +28,8 @@ const Contact = () => {
         <li className={styles.link}>
          
           <img src={getImageUrl('contact/github.png')} alt='email' />
-          <a href='https://www.w3schools.com/' target='blank'>
-            github.com/albin-abraham
+          <a href='https://github.com/albinabraham1616' target='blank'>
+            github.com/albinabraham1616
           </a>
         </li>
       </ul>

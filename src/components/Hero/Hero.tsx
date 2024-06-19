@@ -18,9 +18,9 @@ const Hero = () => {
             {copy}
           </p>
         ))}
-        <a className={styles.contactBtn} href='albinabraham17@gmail.com'>
+        {/* <button className={styles.contactBtn} >
           Contact Me
-        </a>
+        </button> */}
       </div>
       <img
         className={styles.heroImg}
@@ -35,7 +35,7 @@ const Hero = () => {
 const COPY = [
   `I’m a full-stack developer with one years of experience using React and NodeJS.`,
   `Developed strong proficiency in building scalable and maintainable web applications.`,
-  `Reach out if you’d like to learn more!!.`,
+  `Utilized CSS keyframes to create dynamic and engaging animations.`,
 ];
 
 export default Hero;

@@ -8,3 +8,15 @@
   transform-origin: 0%;
   z-index: 1000;
   }
+@media screen  and (max-width:830px){
+  .progressbar{
+    top: 0;
+  left: 0;
+  right: 0;
+  height: 6.5px;
+  background: rgb(237, 233, 233);
+  transform-origin: 0%;
+  z-index: 1000;
+  }
+  
+}

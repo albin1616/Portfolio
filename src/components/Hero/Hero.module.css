@@ -115,9 +115,12 @@
   .content {
     align-items: center;
   }
+  .title{
+    width: 100%;
+    text-align: center;
+  }
   .description {
     line-height: 1.5;
-    /* padding-right: 70px; */
     width: 100%;
     font-size: 20px;
   }

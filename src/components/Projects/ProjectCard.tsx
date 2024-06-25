@@ -13,9 +13,9 @@ const ProjectCard = ({
       />
       <h2 className={styles.title}>{title}</h2>
       <p className={styles.description}>{description}</p>
-      <button onClick={() => window.open(source, '_blank')} className={styles.sourceBtn}>
+      <a href={source} className={styles.sourceBtn} target='blank'>
         Source
-      </button>
+      </a>
     </div>
   );
 };

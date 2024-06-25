@@ -44,7 +44,6 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-
   }
   .text {
     display: flex;
@@ -52,7 +51,7 @@
     align-items: center;
     text-align: center;
   }
-  .link a{
+  .link a {
     font-size: 15px;
   }
 }

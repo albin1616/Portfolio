@@ -16,7 +16,6 @@ const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-          
           <img src={getImageUrl('contact/linkedin.png')} alt='email' />
           <a
             href='https://www.linkedin.com/in/albin-abraham-a03348220'
@@ -26,7 +25,6 @@ const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-         
           <img src={getImageUrl('contact/github.png')} alt='email' />
           <a href='https://github.com/albinabraham1616' target='blank'>
             github.com/albinabraham1616

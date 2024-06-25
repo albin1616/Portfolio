@@ -10,7 +10,7 @@ const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl('about/uiIcon.png')} alt='front-end' />
             <div className={styles.aboutItemText}>
-              <h3 >Frontend Developer</h3>
+              <h3>Frontend Developer</h3>
               <p>
                 I’m a front-end developer with experience,
                 <br />

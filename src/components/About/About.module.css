@@ -56,13 +56,13 @@
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
-   padding-top: 1px;
+    padding-top: 1px;
   }
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
   }
-  .aboutItemText{
+  .aboutItemText {
     width: 100%;
   }
 }

@@ -64,7 +64,6 @@
   font-size: 30px;
   font-weight: 600;
   padding: 17px 26px;
-  /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); */
 }
 .heroImg {
   width: 50%;
@@ -115,7 +114,7 @@
   .content {
     align-items: center;
   }
-  .title{
+  .title {
     width: 100%;
     text-align: center;
   }

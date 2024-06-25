@@ -1,18 +1,18 @@
 [
-    {
-        "title": "Todo App",
-        "imageSrc": "projects/todo.png",
-        "description": "This is a project made to learn the crud operation by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-      },
-      {
-        "title": "Movie Booking App",
-        "imageSrc": "projects/movie.png",
-        "description": "This is a project made to learn the crud operation by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-      }
+  {
+    "title": "Todo App",
+    "imageSrc": "projects/todo.png",
+    "description": "This is a project made to learn the crud operation by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Movie Booking App",
+    "imageSrc": "projects/movie.png",
+    "description": "This is a project made to learn the crud operation by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
 ]

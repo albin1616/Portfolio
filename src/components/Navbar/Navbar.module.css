@@ -19,9 +19,8 @@
 .menu {
   display: flex;
 }
-.menuBtn{
-    display: none;
-    
+.menuBtn {
+  display: none;
 }
 .menuItems {
   list-style: none;
@@ -34,6 +33,27 @@
   font-weight: 500;
   line-height: 31.5px;
   color: var(--color-text);
+}
+.navbarMenuItems {
+  display: inline-block;
+  position: relative;
+}
+.navbarMenuItems:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #edebea;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbarMenuItems:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 @media screen and (max-width: 830px) {
@@ -70,7 +90,7 @@
     );
     box-shadow: 0px 4px 4px 0px #00000040;
   }
-  .menuOpen{
+  .menuOpen {
     display: flex;
     z-index: 1;
   }

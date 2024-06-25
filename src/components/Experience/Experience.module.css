@@ -42,6 +42,9 @@
   height: 120px;
   width: 120px;
 }
+.skillImageContainer:hover {
+  transform: scale(1.1);
+}
 .skillImageContainer img {
   width: 75px;
 }

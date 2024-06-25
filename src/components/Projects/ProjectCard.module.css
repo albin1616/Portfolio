@@ -25,7 +25,6 @@
   height: 220px;
 }
 .sourceBtn {
-  opacity: 0px;
   background: #576cbc;
   color: var(--color-text);
   margin: 25px 50px;

@@ -2,7 +2,7 @@
   {
     "title": "Todo App",
     "imageSrc": "projects/todo.png",
-    "description": "This is a project made to learn the crud operation by building an app.",
+    "description": "A task management app demonstrating CRUD operations. Users can create, update, complete, and delete tasks.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://github.com/albinabraham1616/react-todo-app"
@@ -10,7 +10,7 @@
   {
     "title": "Movie Booking App",
     "imageSrc": "projects/movie.png",
-    "description": "This is a project made to learn the crud operation by building an app.",
+    "description": "An app for browsing movies and booking tickets, featuring seamless user authentication and booking history.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
